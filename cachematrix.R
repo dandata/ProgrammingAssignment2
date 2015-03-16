@@ -34,7 +34,7 @@ makeCacheMatrix <- function(x = matrix()) {
 ## with the same matrix cached version will be used and
 ## message will be in console.
 ##   m = matrix(c(1, 2, 3, 4), 2, 2)
-##   nice_matrix = makeCacheMatrix()
+##   nice_matrix = makeCacheMatrix(m)
 ##   cacheSolve(nice_matrix)
 ##   nice_matrix$getinvesed() # returns inversed matrix
 
